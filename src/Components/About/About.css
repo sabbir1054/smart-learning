@@ -1,0 +1,10 @@
+.about-heading{
+    background-color: black;
+    background-image: url('https://raw.githubusercontent.com/sabbir1054/api-photos/master/slide2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.social:hover{
+ color: goldenrod;
+}
