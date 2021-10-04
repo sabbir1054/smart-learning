@@ -1,6 +1,7 @@
 import Button from "@restart/ui/esm/Button";
 import React from "react";
 import { Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Service = (props) => {
   const { courseName, fee, img, rating, tutor } = props.data;
@@ -16,7 +17,9 @@ const Service = (props) => {
                 Tutor: {tutor} <span className="ms-3">Rating:{rating}</span>
               </p>
               <h3 className="text-warning">Course Fee: ${fee}</h3>
-              <Button className="btn-warning btn">Select Course</Button>
+              <Link to="/admission">
+                <Button className="btn-warning btn">Select Course</Button>
+              </Link>
             </Card.Text>
           </Card.Body>
         </Card>

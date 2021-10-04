@@ -3,7 +3,7 @@ import { Carousel } from "react-bootstrap";
 
 const Hero = () => {
   return (
-    <>
+    <> {/* Her content Carousel Slider */}
       <div className="slider">
         <Carousel>
           <Carousel.Item interval={1000} className="bg-dark">

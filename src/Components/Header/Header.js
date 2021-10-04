@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
     return (
+        /* Navigation part */
       <>
         <Navbar expand="lg"  id="navigation">
           <Container>

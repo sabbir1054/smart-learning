@@ -50,6 +50,7 @@ const Footer = () => {
             </ul>
           </Col>
           <Col md={4}>
+            {/* Contact section info */}
             <h3 className="text-white">Contact Details</h3>
             <ul className="list-unstyled text-white">
               <li>info@ysmartLearning.com</li>
